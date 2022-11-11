@@ -1,7 +1,8 @@
 {
   "name": "tweaks-api",
-  "version": "0.1.0",
   "description": "Mock API service for tweaks-app",
+  "version": "0.1.0",
+  "private": true,
   "devDependencies": {
     "json-server": "^0.17.1"
   },
