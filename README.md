@@ -23,7 +23,7 @@ A study of designing and engineering a three-tier, but otherwise flat app config
 
 1. Create a copy of `.env.example` to `.env.local`.
 
-   ```
+   ```sh
    cp .env.example .env.local
    ```
 
