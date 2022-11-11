@@ -1,7 +1,14 @@
 {
   "name": "tweaks-api",
-  "version": "0.1.0",
   "description": "Mock API service for tweaks-app",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Cezar Andrew Villegas Santarin",
+    "email": "csantarin@moneylion.com",
+    "url": "https://github.com/csantarin"
+  },
+  "license": "MIT",
   "devDependencies": {
     "json-server": "^0.17.1"
   },
