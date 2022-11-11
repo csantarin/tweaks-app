@@ -1,5 +1,6 @@
 {
   "name": "tweaks-app",
+  "description": "A study of designing and engineering a three-tier, but otherwise flat app configuration API using GUI elements and injectable, inferrable values.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

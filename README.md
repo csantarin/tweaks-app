@@ -1,3 +1,9 @@
+# tweaks-app
+
+A study of designing and engineering a three-tier, but otherwise flat app configuration API using GUI elements and injectable, inferrable values.
+
+----
+
 ## Create React App notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
