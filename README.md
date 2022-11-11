@@ -2,6 +2,37 @@
 
 A study of designing and engineering a three-tier, but otherwise flat app configuration API using GUI elements and injectable, inferrable values.
 
+## Setup
+
+### Installation
+
+1. Run NPM installation.
+
+   ```sh
+   npm i
+   ```
+
+2. (optional) Install the `./server` dependencies manually. Without modifications to this repository, this step is already handled for you in step 1.
+
+   ```sh
+   cd server
+   npm i
+   ```
+
+### Environment
+
+1. Create a copy of `.env.example` to `.env.local`.
+
+   ```
+   cp .env.example .env.local
+   ```
+
+2. Modify your `REACT_APP_API_BASE_URL` to match the `./server` port number, especially if you've changed the port number there.
+
+   ```properties
+   REACT_APP_API_BASE_URL=http://localhost:<port number>`
+   ```
+
 ## Usage
 
 1. Run the REST API server in a terminal.
