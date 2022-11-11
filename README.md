@@ -2,6 +2,32 @@
 
 A study of designing and engineering a three-tier, but otherwise flat app configuration API using GUI elements and injectable, inferrable values.
 
+## Usage
+
+1. Run the REST API server in a terminal.
+   ```sh
+   npm run serve
+   ```
+
+2. Run the GUI app client in another terminal.
+   ```sh
+   npm start
+   ```
+
+----
+
+## JSON Server notes
+
+This project comes with the a subproject bootstrapped with instructions from [JSON Server](https://github.com/typicode/json-server#getting-started).
+
+## Available Scripts
+
+### `npm run serve`
+
+Aliases over [the `json-server` command](https://github.com/typicode/json-server#cli-usage) with a local DB.json and port 4000.
+
+Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
+
 ----
 
 ## Create React App notes
