@@ -1,0 +1,11 @@
+{
+  "name": "tweaks-api",
+  "version": "0.1.0",
+  "description": "Mock API service for tweaks-app",
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  },
+  "scripts": {
+    "serve": "json-server db.json --port 4000"
+  }
+}
