@@ -24,6 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "postinstall": "cd server; npm i",
     "serve": "cd server; npm run serve",
     "start": "react-scripts start",
     "build": "react-scripts build",
